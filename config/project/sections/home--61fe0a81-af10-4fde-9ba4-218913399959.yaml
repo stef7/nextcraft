@@ -9,7 +9,7 @@ previewTargets:
         - 'Primary entry page'
       -
         - urlFormat
-        - '{url}'
+        - '{alias(''@appPreviewStart'')}/'
       -
         - refresh
         - '1'
@@ -19,5 +19,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: home
+    uriFormat: __home__
 type: single

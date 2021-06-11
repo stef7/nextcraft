@@ -40,6 +40,10 @@ return [
         'headlessMode' => true,
         'allowedGraphqlOrigins' => [
             App::env('APP_ORIGIN')
-        ]
+        ],
+        'aliases' => [
+            '@appOrigin' => App::env('APP_ORIGIN'),
+            '@appPreviewStart' => App::env('APP_ORIGIN') . App::env('APP_PREVIEW_START'),
+        ],
     ]
 ];
