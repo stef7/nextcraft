@@ -22,7 +22,7 @@ use craft\helpers\App;
 $appId = App::env('APP_ID') ?: 'CraftCMS';
 
 $redis = App::env('REDIS_URL');
-$redisTls = App::env('REDIS_TLS_URL');
+// $redisTls = App::env('REDIS_TLS_URL'); // Causes error? "Failed to write to socket."
 $redisEither = !empty($redisTls) && $redisTls !== '' ? $redisTls : $redis;
 preg_match(
     '|rediss?://:([a-z0-9]*)@([^:]*):([0-9]*)|i',
