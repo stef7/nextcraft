@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-AU
+name: Nextcraft
+primary: true
+siteGroup: 5df88dfd-ae04-4490-a966-c6b145eb02cf # Nextcraft
+sortOrder: 1
