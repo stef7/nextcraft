@@ -1,8 +1,14 @@
 {
   "require": {
+    "php": "^7.4",
+    "ext-imagick": "*",
+    "craftcms/aws-s3": "^1.2",
     "craftcms/cms": "^3.6.4",
+    "craftcms/webhooks": "^2.3",
     "danieltott/craft-sidebar-admin-links": "1.1.0",
-    "vlucas/phpdotenv": "^3.4.0"
+    "jalendport/craft-queuemanager": "^1.2",
+    "vlucas/phpdotenv": "^3.4.0",
+    "yiisoft/yii2-redis": "^2.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
@@ -16,7 +22,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.2.5"
+      "php": "7.4"
     }
   },
   "scripts": {
