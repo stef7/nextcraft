@@ -29,7 +29,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 handle: home
-hasTitleField: false
+hasTitleField: true
 name: Home
 section: 61fe0a81-af10-4fde-9ba4-218913399959 # Home
 sortOrder: 1
