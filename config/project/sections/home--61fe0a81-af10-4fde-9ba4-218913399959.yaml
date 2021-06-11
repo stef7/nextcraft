@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: home
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  208b854a-8dc2-4aa6-a577-fe61ea085a4f: # Nextcraft
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: home
+type: single

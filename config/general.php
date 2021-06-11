@@ -38,5 +38,8 @@ return [
 
         'useEmailAsUsername' => true,
         'headlessMode' => true,
+        'allowedGraphqlOrigins' => [
+            App::env('APP_ORIGIN')
+        ]
     ]
 ];
