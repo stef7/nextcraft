@@ -37,5 +37,6 @@ return [
         'disallowRobots' => !$isProd,
 
         'useEmailAsUsername' => true,
+        'headlessMode' => true,
     ]
 ];

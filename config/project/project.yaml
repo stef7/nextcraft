@@ -1,4 +1,4 @@
-dateModified: 1623404172
+dateModified: 1623406775
 email:
   fromEmail: sp@stefanoperfili.com
   fromName: Nextcraft
@@ -9,7 +9,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Nextcraft
   schemaVersion: 3.6.8
