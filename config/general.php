@@ -43,7 +43,7 @@ return [
         ],
         'aliases' => [
             '@appOrigin' => App::env('APP_ORIGIN'),
-            '@appPreviewStart' => App::env('APP_ORIGIN') . App::env('APP_PREVIEW_START'),
+            '@appPreviewStart' => App::env('APP_ORIGIN') . "/api/preview?uri=",
         ],
     ]
 ];
